@@ -29,7 +29,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
     Route::post('/todos', [App\Http\Controllers\TodosController::class, 'store'])->name('todo.store');
     Route::get('/todos/{id}/edit', [App\Http\Controllers\TodosController::class, 'edit'])->name('todo.edit');
     Route::get('/todos/show', [App\Http\Controllers\TodosController::class, 'show'])->name('todo.show');
-    Route::put('/todos/{id}', [App\Http\Controllers\TodosController::class, 'update'])->name('todo.update');
     Route::delete('/todos/{id}', [App\Http\Controllers\TodosController::class, 'destroy'])->name('todo.destroy');
     Route::get('/show_decryption', [App\Http\Controllers\TodosController::class, 'show_decryption'])->name('todo.show_decryption');
 

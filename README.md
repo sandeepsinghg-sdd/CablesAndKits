@@ -31,10 +31,9 @@ DB_PASSWORD=
 
 This creates a new user with the credentials below:
 
-```
 Email: kalkulus@ktechhub.com
 Password: ktechhub
-```
+
 
 ### Start the server
 
